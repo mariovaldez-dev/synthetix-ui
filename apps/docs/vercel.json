@@ -1,5 +1,6 @@
 {
-  "buildCommand": "cd ../.. && pnpm --filter @synthetix-ui/docs build",
+  "buildCommand": "pnpm run build",
   "installCommand": "cd ../.. && pnpm install --frozen-lockfile",
-  "framework": "nextjs"
+  "outputDirectory": "out",
+  "framework": null
 }

@@ -17,6 +17,7 @@ const withMDX = createMDX({
 });
 
 const nextConfig: NextConfig = {
+  output: "export",
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: [
     "@synthetix-ui/core",

@@ -4,6 +4,6 @@
   "installCommand": "cd ../.. && pnpm install --frozen-lockfile",
   "framework": null,
   "env": {
-    "DOCS_URL": "https://synthetix-ui-docs.vercel.app"
+    "VITE_DOCS_URL": "https://synthetix-ui-docs.vercel.app"
   }
 }
