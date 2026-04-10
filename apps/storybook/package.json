@@ -1,0 +1,42 @@
+{
+  "name": "@chassis-ui/storybook",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+    "preview": "serve storybook-static"
+  },
+  "dependencies": {
+    "@chassis-ui/core": "workspace:*",
+    "@chassis-ui/hooks": "workspace:*",
+    "@chassis-ui/icons": "workspace:*",
+    "@chassis-ui/tokens": "workspace:*",
+    "@chassis-ui/utils": "workspace:*",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@chassis-ui/eslint-config": "workspace:*",
+    "@chassis-ui/prettier-config": "workspace:*",
+    "@chassis-ui/tailwind-preset": "workspace:*",
+    "@chassis-ui/tsconfig": "workspace:*",
+    "@storybook/addon-a11y": "8.6.18",
+    "@storybook/addon-essentials": "8.6.18",
+    "@storybook/addon-interactions": "8.6.18",
+    "@storybook/addon-links": "8.6.18",
+    "@storybook/blocks": "8.6.18",
+    "@storybook/react": "8.6.18",
+    "@storybook/react-vite": "8.6.18",
+    "@storybook/test": "8.6.18",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "storybook": "8.6.18",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  },
+  "prettier": "@chassis-ui/prettier-config"
+}

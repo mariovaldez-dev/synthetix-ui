@@ -1,0 +1,38 @@
+{
+  "name": "@chassis-ui/utils",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Utility helpers for chassis-ui",
+  "keywords": ["chassis-ui", "utils", "cn", "tailwind"],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@chassis-ui/eslint-config": "workspace:*",
+    "@chassis-ui/prettier-config": "workspace:*",
+    "@chassis-ui/tsconfig": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "prettier": "@chassis-ui/prettier-config"
+}

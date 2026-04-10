@@ -1,0 +1,499 @@
+{
+  "version": "0.0.0",
+  "components": {
+    "button": {
+      "name": "button",
+      "description": "Botón con variantes de estilo y tamaño (CVA)",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/button/button.tsx",
+        "packages/core/src/button/button.types.ts",
+        "packages/core/src/button/index.ts"
+      ]
+    },
+    "input": {
+      "name": "input",
+      "description": "Campo de texto con label, error, elementos decoradores",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/input/input.tsx",
+        "packages/core/src/input/input.types.ts",
+        "packages/core/src/input/index.ts"
+      ]
+    },
+    "card": {
+      "name": "card",
+      "description": "Card con subcomponentes Header, Body y Footer",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/card/card.tsx",
+        "packages/core/src/card/card.types.ts",
+        "packages/core/src/card/index.ts"
+      ]
+    },
+    "dialog": {
+      "name": "dialog",
+      "description": "Modal accesible con portal, focus trap y cierre con Escape",
+      "dependencies": ["@chassis-ui/utils", "@chassis-ui/hooks"],
+      "files": [
+        "packages/core/src/dialog/dialog.tsx",
+        "packages/core/src/dialog/dialog.types.ts",
+        "packages/core/src/dialog/index.ts"
+      ]
+    },
+    "badge": {
+      "name": "badge",
+      "description": "Badge con variantes de color y tamaño",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/badge/badge.tsx",
+        "packages/core/src/badge/badge.types.ts",
+        "packages/core/src/badge/index.ts"
+      ]
+
+    },
+    "toast": {
+      "name": "toast",
+      "description": "Sistema de notificaciones con useToast y Toaster",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/toast/toast.types.ts",
+        "packages/core/src/toast/toast-store.ts",
+        "packages/core/src/toast/use-toast.ts",
+        "packages/core/src/toast/toaster.tsx",
+        "packages/core/src/toast/index.ts"
+      ]
+    },
+    "checkbox": {
+      "name": "checkbox",
+      "description": "Checkbox accesible con soporte para estado indeterminate",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/checkbox/checkbox.tsx",
+        "packages/core/src/checkbox/checkbox.types.ts",
+        "packages/core/src/checkbox/index.ts"
+      ]
+    },
+    "textarea": {
+      "name": "textarea",
+      "description": "Textarea con autoResize y contador de caracteres",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/textarea/textarea.tsx",
+        "packages/core/src/textarea/textarea.types.ts",
+        "packages/core/src/textarea/index.ts"
+      ]
+    },
+    "spinner": {
+      "name": "spinner",
+      "description": "Indicador de carga animado con variantes de tamaño y color",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/spinner/spinner.tsx",
+        "packages/core/src/spinner/spinner.types.ts",
+        "packages/core/src/spinner/index.ts"
+      ]
+
+    },
+    "tooltip": {
+      "name": "tooltip",
+      "description": "Tooltip con delay y soporte para 4 posiciones",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/tooltip/tooltip.tsx",
+        "packages/core/src/tooltip/tooltip.types.ts",
+        "packages/core/src/tooltip/index.ts"
+      ]
+    },
+    "accordion": {
+      "name": "accordion",
+      "description": "Accordion accesible con modos single y multiple",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/accordion/accordion.tsx",
+        "packages/core/src/accordion/accordion.types.ts",
+        "packages/core/src/accordion/index.ts"
+      ]
+    },
+    "label": {
+      "name": "label",
+      "description": "Label accesible para inputs",
+      "dependencies": ["@radix-ui/react-label", "class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/label/label.tsx",
+        "packages/core/src/label/label.types.ts",
+        "packages/core/src/label/index.ts"
+      ]
+    },
+    "separator": {
+      "name": "separator",
+      "description": "Un separador visual u orientacional",
+      "dependencies": ["@radix-ui/react-separator", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/separator/separator.tsx",
+        "packages/core/src/separator/separator.types.ts",
+        "packages/core/src/separator/index.ts"
+      ]
+    },
+    "aspect-ratio": {
+      "name": "aspect-ratio",
+      "description": "Componente para mantener la relación de aspecto",
+      "dependencies": ["@radix-ui/react-aspect-ratio", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/aspect-ratio/aspect-ratio.tsx",
+        "packages/core/src/aspect-ratio/aspect-ratio.types.ts",
+        "packages/core/src/aspect-ratio/index.ts"
+      ]
+    },
+    "resizable": {
+      "name": "resizable",
+      "description": "Paneles redimensionables",
+      "dependencies": ["react-resizable-panels", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/resizable/resizable.tsx",
+        "packages/core/src/resizable/resizable.types.ts",
+        "packages/core/src/resizable/index.ts"
+      ]
+    },
+    "breadcrumb": {
+      "name": "breadcrumb",
+      "description": "Navegación tipo migas de pan",
+      "dependencies": ["@radix-ui/react-slot", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/breadcrumb/breadcrumb.tsx",
+        "packages/core/src/breadcrumb/breadcrumb.types.ts",
+        "packages/core/src/breadcrumb/index.ts"
+      ]
+    },
+    "alert": {
+      "name": "alert",
+      "description": "Componente de alerta visual",
+      "dependencies": ["class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/alert/alert.tsx",
+        "packages/core/src/alert/alert.types.ts",
+        "packages/core/src/alert/index.ts"
+      ]
+    },
+    "alert-dialog": {
+      "name": "alert-dialog",
+      "description": "Diálogo de alerta para confirmaciones",
+      "dependencies": ["@radix-ui/react-alert-dialog", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/alert-dialog/alert-dialog.tsx",
+        "packages/core/src/alert-dialog/alert-dialog.types.ts",
+        "packages/core/src/alert-dialog/index.ts"
+      ]
+    },
+    "hover-card": {
+      "name": "hover-card",
+      "description": "Tarjeta que se muestra al hacer hover",
+      "dependencies": ["@radix-ui/react-hover-card", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/hover-card/hover-card.tsx",
+        "packages/core/src/hover-card/hover-card.types.ts",
+        "packages/core/src/hover-card/index.ts"
+      ]
+    },
+    "popover": {
+      "name": "popover",
+      "description": "Ventana emergente que muestra contenido adicional",
+      "dependencies": ["@radix-ui/react-popover", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/popover/popover.tsx",
+        "packages/core/src/popover/popover.types.ts",
+        "packages/core/src/popover/index.ts"
+      ]
+    },
+    "sheet": {
+      "name": "sheet",
+      "description": "Panel lateral superpuesto",
+      "dependencies": ["@radix-ui/react-dialog", "class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/sheet/sheet.tsx",
+        "packages/core/src/sheet/sheet.types.ts",
+        "packages/core/src/sheet/index.ts"
+      ]
+    },
+    "tabs": {
+      "name": "tabs",
+      "description": "Navegación tipo pestañas",
+      "dependencies": ["@radix-ui/react-tabs", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/tabs/tabs.tsx",
+        "packages/core/src/tabs/tabs.types.ts",
+        "packages/core/src/tabs/index.ts"
+      ]
+    },
+    "slider": {
+      "name": "slider",
+      "description": "Control deslizante para valores",
+      "dependencies": ["@radix-ui/react-slider", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/slider/slider.tsx",
+        "packages/core/src/slider/slider.types.ts",
+        "packages/core/src/slider/index.ts"
+      ]
+    },
+    "toggle": {
+      "name": "toggle",
+      "description": "Botón interactivo de alternancia",
+      "dependencies": ["@radix-ui/react-toggle", "class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/toggle/toggle.tsx",
+        "packages/core/src/toggle/toggle.types.ts",
+        "packages/core/src/toggle/index.ts"
+      ]
+    },
+    "toggle-group": {
+      "name": "toggle-group",
+      "description": "Grupo de botones de alternancia",
+      "dependencies": ["@radix-ui/react-toggle-group", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/toggle-group/toggle-group.tsx",
+        "packages/core/src/toggle-group/toggle-group.types.ts",
+        "packages/core/src/toggle-group/index.ts"
+      ]
+    },
+    "radio-group": {
+      "name": "radio-group",
+      "description": "Grupo de opciones de selección única",
+      "dependencies": ["@radix-ui/react-radio-group", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/radio-group/radio-group.tsx",
+        "packages/core/src/radio-group/radio-group.types.ts",
+        "packages/core/src/radio-group/index.ts"
+      ]
+    },
+    "dropdown-menu": {
+      "name": "dropdown-menu",
+      "description": "Menú desplegable con acciones",
+      "dependencies": ["@radix-ui/react-dropdown-menu", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/dropdown-menu/dropdown-menu.tsx",
+        "packages/core/src/dropdown-menu/dropdown-menu.types.ts",
+        "packages/core/src/dropdown-menu/index.ts"
+      ]
+    },
+    "select": {
+      "name": "select",
+      "description": "Selector de opciones",
+      "dependencies": ["@radix-ui/react-select", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/select/select.tsx",
+        "packages/core/src/select/select.types.ts",
+        "packages/core/src/select/index.ts"
+      ]
+    },
+    "context-menu": {
+      "name": "context-menu",
+      "description": "Menú de contexto por clic derecho",
+      "dependencies": ["@radix-ui/react-context-menu", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/context-menu/context-menu.tsx",
+        "packages/core/src/context-menu/context-menu.types.ts",
+        "packages/core/src/context-menu/index.ts"
+      ]
+    },
+    "menubar": {
+      "name": "menubar",
+      "description": "Barra de menús con múltiples submenús",
+      "dependencies": ["@radix-ui/react-menubar", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/menubar/menubar.tsx",
+        "packages/core/src/menubar/menubar.types.ts",
+        "packages/core/src/menubar/index.ts"
+      ]
+    },
+    "command": {
+      "name": "command",
+      "description": "Ventana de comandos rápida",
+      "dependencies": ["cmdk", "@radix-ui/react-dialog", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/command/command.tsx",
+        "packages/core/src/command/command.types.ts",
+        "packages/core/src/command/index.ts"
+      ]
+    },
+    "form": {
+      "name": "form",
+      "description": "Componentes para crear formularios integrales",
+      "dependencies": ["react-hook-form", "@hookform/resolvers", "zod", "@radix-ui/react-slot", "@radix-ui/react-label", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/form/form.tsx",
+        "packages/core/src/form/form.types.ts",
+        "packages/core/src/form/index.ts"
+      ]
+    },
+    "calendar": {
+      "name": "calendar",
+      "description": "Componente interactivo para fechas",
+      "dependencies": ["react-day-picker", "date-fns", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/calendar/calendar.tsx",
+        "packages/core/src/calendar/calendar.types.ts",
+        "packages/core/src/calendar/index.ts"
+      ]
+    },
+    "switch": {
+      "name": "switch",
+      "description": "Control tipo interruptor estilizad",
+      "dependencies": ["@radix-ui/react-switch", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/switch/switch.tsx",
+        "packages/core/src/switch/switch.types.ts",
+        "packages/core/src/switch/index.ts"
+      ]
+    },
+    "input-otp": {
+      "name": "input-otp",
+      "description": "Componente para ingreso de contraseña de un solo uso",
+      "dependencies": ["input-otp", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/input-otp/input-otp.tsx",
+        "packages/core/src/input-otp/input-otp.types.ts",
+        "packages/core/src/input-otp/index.ts"
+      ]
+    },
+    "table": {
+      "name": "table",
+      "description": "Componente para tablas de datos atractivas",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/table/table.tsx",
+        "packages/core/src/table/table.types.ts",
+        "packages/core/src/table/index.ts"
+      ]
+    },
+    "pagination": {
+      "name": "pagination",
+      "description": "Navegación entre páginas",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/pagination/pagination.tsx",
+        "packages/core/src/pagination/pagination.types.ts",
+        "packages/core/src/pagination/index.ts"
+      ]
+    },
+    "sonner": {
+      "name": "sonner",
+      "description": "Sistema de notificaciones robusto",
+      "dependencies": ["sonner", "next-themes", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/sonner/sonner.tsx",
+        "packages/core/src/sonner/sonner.types.ts",
+        "packages/core/src/sonner/index.ts"
+      ]
+    },
+    "skeleton": {
+      "name": "skeleton",
+      "description": "Placeholder animado mientras carga el contenido",
+      "dependencies": ["@radix-ui/react-tooltip", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/skeleton/skeleton.tsx",
+        "packages/core/src/skeleton/skeleton.types.ts",
+        "packages/core/src/skeleton/index.ts"
+      ]
+    },
+    "progress": {
+      "name": "progress",
+      "description": "Indicador de progreso accesible",
+      "dependencies": ["@radix-ui/react-progress", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/progress/progress.tsx",
+        "packages/core/src/progress/progress.types.ts",
+        "packages/core/src/progress/index.ts"
+      ]
+    },
+    "avatar": {
+      "name": "avatar",
+      "description": "Avatar de usuario con imagen y fallback de iniciales",
+      "dependencies": ["@radix-ui/react-avatar", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/avatar/avatar.tsx",
+        "packages/core/src/avatar/avatar.types.ts",
+        "packages/core/src/avatar/index.ts"
+      ]
+    },
+    "drawer": {
+      "name": "drawer",
+      "description": "Panel deslizante inferior estilo drawer nativo",
+      "dependencies": ["vaul", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/drawer/drawer.tsx",
+        "packages/core/src/drawer/drawer.types.ts",
+        "packages/core/src/drawer/index.ts"
+      ]
+    },
+    "scroll-area": {
+      "name": "scroll-area",
+      "description": "Área de desplazamiento personalizada y accesible",
+      "dependencies": ["@radix-ui/react-scroll-area", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/scroll-area/scroll-area.tsx",
+        "packages/core/src/scroll-area/scroll-area.types.ts",
+        "packages/core/src/scroll-area/index.ts"
+      ]
+    },
+    "collapsible": {
+      "name": "collapsible",
+      "description": "Panel expandible/colapsable accesible",
+      "dependencies": ["@radix-ui/react-collapsible", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/collapsible/collapsible.tsx",
+        "packages/core/src/collapsible/collapsible.types.ts",
+        "packages/core/src/collapsible/index.ts"
+      ]
+    },
+    "navigation-menu": {
+      "name": "navigation-menu",
+      "description": "Barra de navegación con submenús desplegables",
+      "dependencies": ["@radix-ui/react-navigation-menu", "class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/navigation-menu/navigation-menu.tsx",
+        "packages/core/src/navigation-menu/navigation-menu.types.ts",
+        "packages/core/src/navigation-menu/index.ts"
+      ]
+    },
+    "date-picker": {
+      "name": "date-picker",
+      "description": "Selector de fecha con calendario emergente",
+      "dependencies": ["date-fns", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/date-picker/date-picker.tsx",
+        "packages/core/src/date-picker/date-picker.types.ts",
+        "packages/core/src/date-picker/index.ts"
+      ]
+    },
+    "chart": {
+      "name": "chart",
+      "description": "Componentes de gráficas basados en recharts",
+      "dependencies": ["recharts", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/chart/chart.tsx",
+        "packages/core/src/chart/chart.types.ts",
+        "packages/core/src/chart/index.ts"
+      ]
+    },
+    "carousel": {
+      "name": "carousel",
+      "description": "Carrusel de elementos con embla-carousel",
+      "dependencies": ["embla-carousel-react", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/carousel/carousel.tsx",
+        "packages/core/src/carousel/carousel.types.ts",
+        "packages/core/src/carousel/index.ts"
+      ]
+    },
+    "sidebar": {
+      "name": "sidebar",
+      "description": "Sidebar completo con proveedor, menús y grupos",
+      "dependencies": ["@radix-ui/react-slot", "class-variance-authority", "@chassis-ui/utils"],
+      "files": [
+        "packages/core/src/sidebar/sidebar.tsx",
+        "packages/core/src/sidebar/sidebar.types.ts",
+        "packages/core/src/sidebar/index.ts"
+      ]
+    }
+  }
+}

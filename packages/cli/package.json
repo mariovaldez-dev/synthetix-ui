@@ -1,0 +1,32 @@
+{
+  "name": "@chassis-ui/cli",
+  "version": "0.0.0",
+  "private": false,
+  "description": "CLI for adding chassis-ui components to your project",
+  "keywords": ["chassis-ui", "cli", "components"],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "chassis-ui": "./dist/index.js"
+  },
+  "files": ["dist", "registry.json"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@chassis-ui/eslint-config": "workspace:*",
+    "@chassis-ui/tsconfig": "workspace:*",
+    "@types/fs-extra": "^11.0.4",
+    "@types/prompts": "^2.4.9",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}

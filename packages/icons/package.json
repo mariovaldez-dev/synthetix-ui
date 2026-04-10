@@ -1,0 +1,39 @@
+{
+  "name": "@chassis-ui/icons",
+  "version": "0.0.0",
+  "private": false,
+  "description": "SVG icon components for chassis-ui",
+  "keywords": ["chassis-ui", "icons", "react", "svg"],
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@chassis-ui/eslint-config": "workspace:*",
+    "@chassis-ui/prettier-config": "workspace:*",
+    "@chassis-ui/tsconfig": "workspace:*",
+    "@types/react": "^18.3.12",
+    "react": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "prettier": "@chassis-ui/prettier-config"
+}
