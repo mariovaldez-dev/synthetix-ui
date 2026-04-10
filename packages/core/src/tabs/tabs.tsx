@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as TabsPrimitive from "@radix-ui/react-tabs";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import type {
   TabsProps,
   TabsListProps,

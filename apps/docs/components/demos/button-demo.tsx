@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@chassis-ui/core";
+import { Button } from "@synthetix-ui/core";
 
 export function ButtonVariantsDemo() {
   return (

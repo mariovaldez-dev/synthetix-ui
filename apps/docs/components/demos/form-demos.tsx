@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import { Checkbox, Textarea, Switch } from "@chassis-ui/core";
+import { Checkbox, Textarea, Switch } from "@synthetix-ui/core";
 
 export function CheckboxDemo() {
   return (

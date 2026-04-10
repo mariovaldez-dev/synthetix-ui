@@ -12,7 +12,7 @@ export default function SelectPage() {
       <p>Campo de selección nativo con soporte para label, placeholder y estado de error.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add select`} />
+      <CodeSnippet code={`npx @synthetix-ui add select`} />
 
       <h2>Uso</h2>
       <CodeSnippet

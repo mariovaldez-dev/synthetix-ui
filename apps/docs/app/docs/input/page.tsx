@@ -21,7 +21,7 @@ export default function InputPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add input`} />
+      <CodeSnippet code={`npx @synthetix-ui add input`} />
 
       <h2>Uso</h2>
       <CodeSnippet
@@ -55,7 +55,7 @@ export function Example() {
 
       <h2>Con icono</h2>
       <ComponentPreview
-        code={`import { SearchIcon } from "@chassis-ui/icons";
+        code={`import { SearchIcon } from "@synthetix-ui/icons";
 
 <Input
   label="Buscar"

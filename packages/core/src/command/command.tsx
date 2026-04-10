@@ -3,7 +3,7 @@ import * as React from "react";
 import * as DialogPrimitive from "@radix-ui/react-dialog";
 import { Command as CommandPrimitive } from "cmdk";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import type {
   CommandProps,
   CommandDialogProps,

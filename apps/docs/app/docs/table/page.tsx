@@ -14,7 +14,7 @@ export default function TablePage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add table`} />
+      <CodeSnippet code={`npx @synthetix-ui add table`} />
 
       <h2>Preview</h2><ComponentPreview><TableDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function TablePage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Table } from "@chassis-ui/core";
+        code={`import { Table } from "@synthetix-ui/core";
 
 export function Example() {
   return <Table />;

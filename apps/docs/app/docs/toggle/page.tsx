@@ -23,7 +23,7 @@ export default function TogglePage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add toggle`} />
+      <CodeSnippet code={`npx @synthetix-ui add toggle`} />
 
       <h2>Personalización</h2>
       <p>
@@ -35,8 +35,8 @@ export default function TogglePage() {
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Toggle } from "@chassis-ui/core";
-import { Bold } from "@chassis-ui/icons";
+        code={`import { Toggle } from "@synthetix-ui/core";
+import { Bold } from "@synthetix-ui/icons";
 
 export function Example() {
   return (

@@ -10,7 +10,7 @@ import {
   useFormContext,
 } from "react-hook-form";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import { Label } from "../label";
 import type {
   FormItemContextValue,

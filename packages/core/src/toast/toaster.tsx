@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
 import { cva } from "class-variance-authority";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 import { useToastStore } from "./use-toast";
 import { toastStore } from "./toast-store";

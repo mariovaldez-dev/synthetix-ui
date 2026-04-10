@@ -14,13 +14,13 @@ export default function CarouselPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add carousel`} />
+      <CodeSnippet code={`npx @synthetix-ui add carousel`} />
 
       <h2>Preview</h2><ComponentPreview><CarouselDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Carousel } from "@chassis-ui/core";
+        code={`import { Carousel } from "@synthetix-ui/core";
 
 export function Example() {
   return <Carousel />;

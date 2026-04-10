@@ -12,7 +12,7 @@ export default function CardPage() {
       <p>Contenedor con borde y fondo para agrupar contenido relacionado.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add card`} />
+      <CodeSnippet code={`npx @synthetix-ui add card`} />
 
       <h2>Uso</h2>
       <CodeSnippet

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Dialog, DialogHeader, DialogBody, DialogFooter, Button, Input } from "@chassis-ui/core";
+import { Dialog, DialogHeader, DialogBody, DialogFooter, Button, Input } from "@synthetix-ui/core";
 
 export function DialogBasicDemo() {
   const [open, setOpen] = useState(false);

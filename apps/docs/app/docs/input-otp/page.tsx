@@ -19,7 +19,7 @@ export default function InputOTPPage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add input-otp`} />
+      <CodeSnippet code={`npx @synthetix-ui add input-otp`} />
 
       <h2>Personalización</h2>
       <p>
@@ -36,7 +36,7 @@ export default function InputOTPPage() {
   InputOTPGroup,
   InputOTPSlot,
   InputOTPSeparator,
-} from "@chassis-ui/core"
+} from "@synthetix-ui/core"
 
 export function Example() {
   return (

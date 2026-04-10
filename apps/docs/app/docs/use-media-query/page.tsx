@@ -11,11 +11,11 @@ export default function UseMediaQueryPage() {
       <p>Hook reactivo que se suscribe a una media query de CSS y devuelve si coincide o no.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add hooks`} />
+      <CodeSnippet code={`npx @synthetix-ui add hooks`} />
 
       <h2>Uso</h2>
       <CodeSnippet
-        code={`import { useMediaQuery } from "@chassis-ui/hooks";
+        code={`import { useMediaQuery } from "@synthetix-ui/hooks";
 
 function MyComponent() {
   const isMobile = useMediaQuery("(max-width: 768px)");

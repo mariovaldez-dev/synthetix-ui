@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 import type {
   BreadcrumbProps,

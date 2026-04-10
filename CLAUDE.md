@@ -1,4 +1,4 @@
-# CLAUDE.md — chassis-ui
+# CLAUDE.md — synthetix-ui
 
 Archivo de contexto para Claude Code. Léelo antes de tocar cualquier archivo del proyecto.
 
@@ -6,16 +6,16 @@ Archivo de contexto para Claude Code. Léelo antes de tocar cualquier archivo de
 
 ## ¿Qué es este proyecto?
 
-`chassis-ui` es una librería de componentes UI estilo **shadcn/ui**: los componentes no se instalan como dependencia, se copian directamente al proyecto del consumidor via CLI. Adicionalmente se publican como paquetes npm para consumo directo.
+`synthetix-ui` es una librería de componentes UI estilo **shadcn/ui**: los componentes no se instalan como dependencia, se copian directamente al proyecto del consumidor via CLI. Adicionalmente se publican como paquetes npm para consumo directo.
 
-**Scope npm:** `@chassis-ui`
+**Scope npm:** `@synthetix-ui`
 
 ---
 
 ## Arquitectura del monorepo
 
 ```
-chassis-ui/
+synthetix-ui/
 ├── apps/
 │   ├── docs/          # Sitio de documentación (Next.js)
 │   ├── storybook/     # Stories de componentes
@@ -26,7 +26,7 @@ chassis-ui/
 │   ├── utils/         # cn(), merge, helpers
 │   ├── hooks/         # useMediaQuery, useFocus, etc.
 │   ├── icons/         # SVGs optimizados con SVGR
-│   ├── cli/           # CLI: npx @chassis-ui add <component>
+│   ├── cli/           # CLI: npx @synthetix-ui add <component>
 │   └── tailwind-preset/ # Plugin + theme extension para Tailwind
 └── tooling/           # Configuraciones compartidas
     ├── tsconfig/      # base.json, react.json, node.json
@@ -87,7 +87,7 @@ const Button: React.FC<ButtonProps> = ({ variant }) => ...
 
 ### Estilos
 - Solo clases de Tailwind, nunca CSS inline ni módulos CSS.
-- Siempre usar `cn()` de `@chassis-ui/utils` para combinar clases condicionalmente.
+- Siempre usar `cn()` de `@synthetix-ui/utils` para combinar clases condicionalmente.
 - Las clases de variantes van en CVA, no en condicionales manuales.
 
 ### Estructura de un componente en `packages/core`
@@ -123,8 +123,8 @@ pnpm test
 pnpm lint
 
 # Ejecutar solo en un paquete
-pnpm --filter @chassis-ui/core build
-pnpm --filter @chassis-ui/core dev
+pnpm --filter @synthetix-ui/core build
+pnpm --filter @synthetix-ui/core dev
 ```
 
 ---
@@ -133,7 +133,7 @@ pnpm --filter @chassis-ui/core dev
 
 | Tipo | Convención | Ejemplo |
 |---|---|---|
-| Paquetes npm | kebab-case con scope | `@chassis-ui/core` |
+| Paquetes npm | kebab-case con scope | `@synthetix-ui/core` |
 | Componentes | PascalCase | `Button`, `InputField` |
 | Archivos de componente | kebab-case | `button.tsx` |
 | Hooks | camelCase con `use` | `useMediaQuery` |
@@ -146,14 +146,14 @@ pnpm --filter @chassis-ui/core dev
 
 Los componentes se distribuyen de dos formas:
 
-1. **npm publish** — paquete instalable (`@chassis-ui/core`) con salida ESM + CJS via `tsup`.
-2. **copy-paste via CLI** — `npx @chassis-ui add button` copia el componente directamente al proyecto usando un `registry.json`.
+1. **npm publish** — paquete instalable (`@synthetix-ui/core`) con salida ESM + CJS via `tsup`.
+2. **copy-paste via CLI** — `npx @synthetix-ui add button` copia el componente directamente al proyecto usando un `registry.json`.
 
 ---
 
 ## Lo que NO hacer
 
-- No publicar paquetes de `tooling/` (`@chassis-ui/tsconfig`, etc.) — son `private: true`.
+- No publicar paquetes de `tooling/` (`@synthetix-ui/tsconfig`, etc.) — son `private: true`.
 - No importar desde `packages/core` dentro de `tooling/`.
 - No mezclar estilos CSS-in-JS con Tailwind.
 - No agregar dependencias a la raíz del monorepo salvo tooling compartido.

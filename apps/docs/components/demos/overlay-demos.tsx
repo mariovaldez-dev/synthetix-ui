@@ -33,7 +33,7 @@ import {
   Button,
   Input,
   Label
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 
 export function PopoverDemo() {
   return (
@@ -186,11 +186,11 @@ export function HoverCardCustomizationDemo() {
   return (
     <HoverCard>
       <HoverCardTrigger asChild>
-        <Button variant="link">@chassis-ui</Button>
+        <Button variant="link">@synthetix-ui</Button>
       </HoverCardTrigger>
       <HoverCardContent className="w-72 border-2 border-primary/20 shadow-xl">
         <div className="space-y-1">
-          <h4 className="text-sm font-semibold">@chassis-ui</h4>
+          <h4 className="text-sm font-semibold">@synthetix-ui</h4>
           <p className="text-xs text-muted-foreground">
             Librería de componentes UI para React con Tailwind CSS y shadcn/ui philosophy.
           </p>

@@ -17,22 +17,22 @@ importers:
 
   apps/docs:
     dependencies:
-      '@chassis-ui/core':
+      '@synthetix-ui/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@chassis-ui/hooks':
+      '@synthetix-ui/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@chassis-ui/icons':
+      '@synthetix-ui/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@chassis-ui/tailwind-preset':
+      '@synthetix-ui/tailwind-preset':
         specifier: workspace:*
         version: link:../../packages/tailwind-preset
-      '@chassis-ui/tokens':
+      '@synthetix-ui/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@chassis-ui/utils':
+      '@synthetix-ui/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       date-fns:
@@ -54,15 +54,6 @@ importers:
         specifier: ^2.0.7
         version: 2.0.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
-      '@chassis-ui/eslint-config':
-        specifier: workspace:*
-        version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
-        specifier: workspace:*
-        version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
       '@mdx-js/loader':
         specifier: ^3.1.0
         version: 3.1.1
@@ -72,6 +63,15 @@ importers:
       '@next/mdx':
         specifier: ^15.1.0
         version: 15.5.14(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
+      '@synthetix-ui/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@synthetix-ui/prettier-config':
+        specifier: workspace:*
+        version: link:../../tooling/prettier-config
+      '@synthetix-ui/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
       '@types/mdx':
         specifier: ^2.0.13
         version: 2.0.13
@@ -108,10 +108,10 @@ importers:
 
   apps/playground:
     dependencies:
-      '@chassis-ui/core':
+      '@synthetix-ui/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@chassis-ui/hooks':
+      '@synthetix-ui/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
       react:
@@ -121,10 +121,10 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@chassis-ui/tailwind-preset':
+      '@synthetix-ui/tailwind-preset':
         specifier: workspace:*
         version: link:../../packages/tailwind-preset
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/react':
@@ -154,19 +154,19 @@ importers:
 
   apps/storybook:
     dependencies:
-      '@chassis-ui/core':
+      '@synthetix-ui/core':
         specifier: workspace:*
         version: link:../../packages/core
-      '@chassis-ui/hooks':
+      '@synthetix-ui/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@chassis-ui/icons':
+      '@synthetix-ui/icons':
         specifier: workspace:*
         version: link:../../packages/icons
-      '@chassis-ui/tokens':
+      '@synthetix-ui/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@chassis-ui/utils':
+      '@synthetix-ui/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       react:
@@ -176,18 +176,6 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
     devDependencies:
-      '@chassis-ui/eslint-config':
-        specifier: workspace:*
-        version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
-        specifier: workspace:*
-        version: link:../../tooling/prettier-config
-      '@chassis-ui/tailwind-preset':
-        specifier: workspace:*
-        version: link:../../packages/tailwind-preset
-      '@chassis-ui/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
       '@storybook/addon-a11y':
         specifier: 8.6.18
         version: 8.6.18(storybook@8.6.18(prettier@3.8.1))
@@ -212,6 +200,18 @@ importers:
       '@storybook/test':
         specifier: 8.6.18
         version: 8.6.18(storybook@8.6.18(prettier@3.8.1))
+      '@synthetix-ui/eslint-config':
+        specifier: workspace:*
+        version: link:../../tooling/eslint-config
+      '@synthetix-ui/prettier-config':
+        specifier: workspace:*
+        version: link:../../tooling/prettier-config
+      '@synthetix-ui/tailwind-preset':
+        specifier: workspace:*
+        version: link:../../packages/tailwind-preset
+      '@synthetix-ui/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
       '@types/react':
         specifier: ^18.3.12
         version: 18.3.28
@@ -249,10 +249,10 @@ importers:
         specifier: ^2.4.2
         version: 2.4.2
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/fs-extra':
@@ -270,12 +270,6 @@ importers:
 
   packages/core:
     dependencies:
-      '@chassis-ui/hooks':
-        specifier: workspace:*
-        version: link:../hooks
-      '@chassis-ui/utils':
-        specifier: workspace:*
-        version: link:../utils
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.72.1(react@18.3.1))
@@ -354,6 +348,12 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: ^1.2.8
         version: 1.2.8(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@synthetix-ui/hooks':
+        specifier: workspace:*
+        version: link:../hooks
+      '@synthetix-ui/utils':
+        specifier: workspace:*
+        version: link:../utils
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -394,13 +394,13 @@ importers:
         specifier: ^4.3.6
         version: 4.3.6
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@testing-library/jest-dom':
@@ -442,13 +442,13 @@ importers:
 
   packages/hooks:
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@testing-library/jest-dom':
@@ -487,13 +487,13 @@ importers:
 
   packages/icons:
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       '@types/react':
@@ -511,17 +511,17 @@ importers:
 
   packages/tailwind-preset:
     dependencies:
-      '@chassis-ui/tokens':
+      '@synthetix-ui/tokens':
         specifier: workspace:*
         version: link:../tokens
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       tailwindcss:
@@ -536,13 +536,13 @@ importers:
 
   packages/tokens:
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       tsup:
@@ -561,13 +561,13 @@ importers:
         specifier: ^2.5.4
         version: 2.6.1
     devDependencies:
-      '@chassis-ui/eslint-config':
+      '@synthetix-ui/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@chassis-ui/prettier-config':
+      '@synthetix-ui/prettier-config':
         specifier: workspace:*
         version: link:../../tooling/prettier-config
-      '@chassis-ui/tsconfig':
+      '@synthetix-ui/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
       tsup:

@@ -16,7 +16,7 @@ export default function BadgePage() {
       <p>Etiqueta compacta para mostrar estado, categorías o contadores.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add badge`} />
+      <CodeSnippet code={`npx @synthetix-ui add badge`} />
 
       <h2>Variantes</h2>
       <ComponentPreview>

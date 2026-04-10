@@ -1,8 +1,8 @@
 import type { Config } from "tailwindcss";
-import chassisPreset from "@chassis-ui/tailwind-preset";
+import synthetixPreset from "@synthetix-ui/tailwind-preset";
 
 export default {
-  presets: [chassisPreset],
+  presets: [synthetixPreset],
   content: [
     "./src/**/*.{ts,tsx}",
     "../../packages/core/src/**/*.{ts,tsx}",

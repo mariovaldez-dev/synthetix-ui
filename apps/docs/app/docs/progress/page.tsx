@@ -14,7 +14,7 @@ export default function ProgressPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add progress`} />
+      <CodeSnippet code={`npx @synthetix-ui add progress`} />
 
       <h2>Preview</h2><ComponentPreview><ProgressDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function ProgressPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Progress } from "@chassis-ui/core";
+        code={`import { Progress } from "@synthetix-ui/core";
 
 export function Example() {
   return <Progress />;

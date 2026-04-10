@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/prettier-config",
+  "name": "@synthetix-ui/prettier-config",
   "version": "0.0.0",
   "private": true,
   "main": "index.js",

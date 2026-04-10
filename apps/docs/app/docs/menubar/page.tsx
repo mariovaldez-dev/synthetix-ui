@@ -16,7 +16,7 @@ export default function MenubarPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add menubar`} />
+      <CodeSnippet code={`npx @synthetix-ui add menubar`} />
 
       <h2>Uso</h2>
       <CodeSnippet

@@ -1,9 +1,9 @@
 {
-  "name": "@chassis-ui/icons",
+  "name": "@synthetix-ui/icons",
   "version": "0.0.0",
   "private": false,
-  "description": "SVG icon components for chassis-ui",
-  "keywords": ["chassis-ui", "icons", "react", "svg"],
+  "description": "SVG icon components for synthetix-ui",
+  "keywords": ["synthetix-ui", "icons", "react", "svg"],
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -24,9 +24,9 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@chassis-ui/eslint-config": "workspace:*",
-    "@chassis-ui/prettier-config": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/eslint-config": "workspace:*",
+    "@synthetix-ui/prettier-config": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "@types/react": "^18.3.12",
     "react": "^18.3.1",
     "tsup": "^8.3.5",
@@ -35,5 +35,5 @@
   "peerDependencies": {
     "react": "^18.0.0"
   },
-  "prettier": "@chassis-ui/prettier-config"
+  "prettier": "@synthetix-ui/prettier-config"
 }

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Select } from "@chassis-ui/core";
+import { Select } from "@synthetix-ui/core";
 
 const LANGUAGES = [
   { value: "es", label: "Español" },

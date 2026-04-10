@@ -15,11 +15,11 @@ export default function FormPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add form`} />
+      <CodeSnippet code={`npx @synthetix-ui add form`} />
 
       <h2>Demo visual</h2>
       <p>
-        Los componentes de chassis-ui (<code>Input</code>, <code>Select</code>, <code>Textarea</code>) se pueden combinar libremente en formularios:
+        Los componentes de synthetix-ui (<code>Input</code>, <code>Select</code>, <code>Textarea</code>) se pueden combinar libremente en formularios:
       </p>
       <ComponentPreview
         code={`<form onSubmit={handleSubmit(onSubmit)} className="flex flex-col gap-4">

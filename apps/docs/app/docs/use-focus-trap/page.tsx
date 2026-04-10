@@ -14,11 +14,11 @@ export default function UseFocusTrapPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add hooks`} />
+      <CodeSnippet code={`npx @synthetix-ui add hooks`} />
 
       <h2>Uso</h2>
       <CodeSnippet
-        code={`import { useFocusTrap } from "@chassis-ui/hooks";
+        code={`import { useFocusTrap } from "@synthetix-ui/hooks";
 
 function MyModal({ isOpen }: { isOpen: boolean }) {
   const containerRef = useFocusTrap(isOpen);
@@ -64,7 +64,7 @@ function MyModal({ isOpen }: { isOpen: boolean }) {
 
       <h2>Nota</h2>
       <p>
-        El componente <code>Dialog</code> de chassis-ui ya usa <code>useFocusTrap</code>{" "}
+        El componente <code>Dialog</code> de synthetix-ui ya usa <code>useFocusTrap</code>{" "}
         internamente. Solo necesitas usarlo directamente si construyes tu propio componente modal.
       </p>
     </div>

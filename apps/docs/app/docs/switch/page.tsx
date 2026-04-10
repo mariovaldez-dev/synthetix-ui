@@ -12,7 +12,7 @@ export default function SwitchPage() {
       <p>Toggle booleano accesible implementado sobre <code>input[type=checkbox]</code> con animación CSS.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add switch`} />
+      <CodeSnippet code={`npx @synthetix-ui add switch`} />
 
       <h2>Uso</h2>
       <CodeSnippet

@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import type { ToastPosition } from "@chassis-ui/core";
-import { Toaster, useToast, Button } from "@chassis-ui/core";
+import type { ToastPosition } from "@synthetix-ui/core";
+import { Toaster, useToast, Button } from "@synthetix-ui/core";
 
 export function ToastDemo() {
   const { toast, clear } = useToast();

@@ -14,7 +14,7 @@ export default function DropdownMenuPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add dropdown-menu`} />
+      <CodeSnippet code={`npx @synthetix-ui add dropdown-menu`} />
 
       <h2>Preview</h2><ComponentPreview><DropdownMenuDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function DropdownMenuPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { DropdownMenu } from "@chassis-ui/core";
+        code={`import { DropdownMenu } from "@synthetix-ui/core";
 
 export function Example() {
   return <DropdownMenu />;

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const STORAGE_KEY = "chassis-ui-theme";
+const STORAGE_KEY = "synthetix-ui-theme";
 
 function getPreferredTheme(): "light" | "dark" {
   if (typeof window === "undefined") {

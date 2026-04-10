@@ -1,6 +1,6 @@
 import { useId, useRef, useEffect } from "react";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 import type { CheckboxProps } from "./checkbox.types";
 

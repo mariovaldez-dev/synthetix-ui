@@ -21,7 +21,7 @@ import {
   CarouselItem,
   CarouselPrevious,
   CarouselNext
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 
 export function AspectRatioDemo() {
   return (

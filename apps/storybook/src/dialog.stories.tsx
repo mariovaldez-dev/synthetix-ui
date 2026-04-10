@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { Meta, StoryObj } from "@storybook/react";
-import { Dialog, DialogHeader, DialogBody, DialogFooter, Button, Input } from "@chassis-ui/core";
+import { Dialog, DialogHeader, DialogBody, DialogFooter, Button, Input } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Dialog",

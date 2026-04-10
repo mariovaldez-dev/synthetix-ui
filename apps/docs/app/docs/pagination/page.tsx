@@ -21,7 +21,7 @@ export default function PaginationPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add pagination`} />
+      <CodeSnippet code={`npx @synthetix-ui add pagination`} />
 
       <h2>Variante: Default</h2>
       <p>Botones cuadrados con borde, envueltos en un contenedor con sombra.</p>

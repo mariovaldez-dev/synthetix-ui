@@ -1,4 +1,4 @@
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import { codeToHtml } from "shiki";
 import { CopyButton } from "./copy-button";
 

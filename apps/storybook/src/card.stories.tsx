@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Card, CardHeader, CardTitle, CardDescription, CardBody, CardFooter, Button } from "@chassis-ui/core";
+import { Card, CardHeader, CardTitle, CardDescription, CardBody, CardFooter, Button } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Card",

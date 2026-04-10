@@ -27,7 +27,7 @@ export default function ToggleGroupPage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add toggle-group`} />
+      <CodeSnippet code={`npx @synthetix-ui add toggle-group`} />
 
       <h2>Personalización</h2>
       <p>
@@ -39,8 +39,8 @@ export default function ToggleGroupPage() {
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { ToggleGroup, ToggleGroupItem } from "@chassis-ui/core";
-import { Bold, Italic, Underline } from "@chassis-ui/icons";
+        code={`import { ToggleGroup, ToggleGroupItem } from "@synthetix-ui/core";
+import { Bold, Italic, Underline } from "@synthetix-ui/icons";
 
 export function Example() {
   return (

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Switch } from "@chassis-ui/core";
+import { Switch } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Switch",

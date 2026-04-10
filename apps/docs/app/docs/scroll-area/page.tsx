@@ -15,7 +15,7 @@ export default function ScrollAreaPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add scroll-area`} />
+      <CodeSnippet code={`npx @synthetix-ui add scroll-area`} />
 
       <h2>Uso</h2>
       <CodeSnippet

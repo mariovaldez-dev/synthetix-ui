@@ -12,15 +12,15 @@ export default function AccordionPage() {
       <p>Lista de secciones expandibles con soporte para modo individual y múltiple.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add accordion`} />
+      <CodeSnippet code={`npx @synthetix-ui add accordion`} />
 
       <h2>Uso</h2>
       <CodeSnippet
         code={`import { Accordion } from "@/components/ui/accordion";
 
 const items = [
-  { id: "q1", trigger: "¿Qué es chassis-ui?", content: "Una librería de componentes UI para React." },
-  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @chassis-ui add <componente>." },
+  { id: "q1", trigger: "¿Qué es synthetix-ui?", content: "Una librería de componentes UI para React." },
+  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @synthetix-ui add <componente>." },
 ];
 
 export function Example() {

@@ -19,7 +19,7 @@ export default function SliderPage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add slider`} />
+      <CodeSnippet code={`npx @synthetix-ui add slider`} />
 
       <h2>Personalización</h2>
       <p>
@@ -31,7 +31,7 @@ export default function SliderPage() {
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Slider } from "@chassis-ui/core";
+        code={`import { Slider } from "@synthetix-ui/core";
 
 export function Example() {
   return (

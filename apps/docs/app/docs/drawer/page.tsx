@@ -14,13 +14,13 @@ export default function DrawerPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add drawer`} />
+      <CodeSnippet code={`npx @synthetix-ui add drawer`} />
 
       <h2>Preview</h2><ComponentPreview><DrawerDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Drawer } from "@chassis-ui/core";
+        code={`import { Drawer } from "@synthetix-ui/core";
 
 export function Example() {
   return <Drawer />;

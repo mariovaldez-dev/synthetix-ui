@@ -1,6 +1,6 @@
 "use client";
 
-import { Spinner, Tooltip, Accordion, Button } from "@chassis-ui/core";
+import { Spinner, Tooltip, Accordion, Button } from "@synthetix-ui/core";
 
 export function SpinnerDemo() {
   return (
@@ -41,8 +41,8 @@ export function TooltipDemo() {
 }
 
 const FAQ = [
-  { id: "q1", trigger: "¿Qué es chassis-ui?", content: "Una librería de componentes UI para React con Tailwind CSS." },
-  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @chassis-ui add <componente> o instalando @chassis-ui/core como dependencia npm." },
+  { id: "q1", trigger: "¿Qué es synthetix-ui?", content: "Una librería de componentes UI para React con Tailwind CSS." },
+  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @synthetix-ui add <componente> o instalando @synthetix-ui/core como dependencia npm." },
   { id: "q3", trigger: "¿Es open source?", content: "Sí, publicado bajo licencia MIT.", disabled: false },
 ];
 

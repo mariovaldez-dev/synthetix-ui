@@ -1,9 +1,9 @@
 import type { Config } from "tailwindcss";
-import chassisPreset from "@chassis-ui/tailwind-preset";
+import synthetixPreset from "@synthetix-ui/tailwind-preset";
 
 export default {
   darkMode: "class",
-  presets: [chassisPreset],
+  presets: [synthetixPreset],
   content: [
     "./app/**/*.{ts,tsx,md,mdx}",
     "./components/**/*.{ts,tsx}",

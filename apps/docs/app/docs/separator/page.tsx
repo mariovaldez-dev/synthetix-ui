@@ -14,7 +14,7 @@ export default function SeparatorPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add separator`} />
+      <CodeSnippet code={`npx @synthetix-ui add separator`} />
 
       <h2>Preview</h2><ComponentPreview><SeparatorDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function SeparatorPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Separator } from "@chassis-ui/core";
+        code={`import { Separator } from "@synthetix-ui/core";
 
 export function Example() {
   return <Separator />;

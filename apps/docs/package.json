@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/docs",
+  "name": "@synthetix-ui/docs",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@chassis-ui/core": "workspace:*",
-    "@chassis-ui/hooks": "workspace:*",
-    "@chassis-ui/icons": "workspace:*",
-    "@chassis-ui/tailwind-preset": "workspace:*",
-    "@chassis-ui/tokens": "workspace:*",
-    "@chassis-ui/utils": "workspace:*",
+    "@synthetix-ui/core": "workspace:*",
+    "@synthetix-ui/hooks": "workspace:*",
+    "@synthetix-ui/icons": "workspace:*",
+    "@synthetix-ui/tailwind-preset": "workspace:*",
+    "@synthetix-ui/tokens": "workspace:*",
+    "@synthetix-ui/utils": "workspace:*",
     "date-fns": "^3.6.0",
     "next": "^15.1.0",
     "react": "^18.3.1",
@@ -23,9 +23,9 @@
     "sonner": "^2.0.7"
   },
   "devDependencies": {
-    "@chassis-ui/eslint-config": "workspace:*",
-    "@chassis-ui/prettier-config": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/eslint-config": "workspace:*",
+    "@synthetix-ui/prettier-config": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "@mdx-js/loader": "^3.1.0",
     "@mdx-js/react": "^3.1.0",
     "@next/mdx": "^15.1.0",
@@ -41,5 +41,5 @@
     "tailwindcss": "^3.4.15",
     "typescript": "^5.6.3"
   },
-  "prettier": "@chassis-ui/prettier-config"
+  "prettier": "@synthetix-ui/prettier-config"
 }

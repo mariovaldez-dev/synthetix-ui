@@ -7,7 +7,7 @@ export default function InstallationPage() {
   return (
     <div>
       <h1>Instalación</h1>
-      <p>chassis-ui ofrece dos formas de consumir los componentes.</p>
+      <p>synthetix-ui ofrece dos formas de consumir los componentes.</p>
 
       <h2>Opción 1 — CLI (recomendado)</h2>
       <p>
@@ -17,11 +17,11 @@ export default function InstallationPage() {
 
       <CodeSnippet
         code={`# Inicializa la configuración
-npx @chassis-ui init
+npx @synthetix-ui init
 
 # Agrega componentes
-npx @chassis-ui add button
-npx @chassis-ui add button input card dialog`}
+npx @synthetix-ui add button
+npx @synthetix-ui add button input card dialog`}
       />
 
       <p>
@@ -29,21 +29,21 @@ npx @chassis-ui add button input card dialog`}
         Puedes cambiar el destino con <code>--out-dir</code>:
       </p>
 
-      <CodeSnippet code={`npx @chassis-ui add button --out-dir src/ui`} />
+      <CodeSnippet code={`npx @synthetix-ui add button --out-dir src/ui`} />
 
       <h2>Opción 2 — npm</h2>
       <p>Instala el paquete como dependencia estándar:</p>
 
-      <CodeSnippet code={`pnpm add @chassis-ui/core @chassis-ui/utils`} />
+      <CodeSnippet code={`pnpm add @synthetix-ui/core @synthetix-ui/utils`} />
 
-      <CodeSnippet code={`import { Button } from "@chassis-ui/core";`} />
+      <CodeSnippet code={`import { Button } from "@synthetix-ui/core";`} />
 
       <h2>Configurar Tailwind</h2>
-      <p>Agrega el preset de chassis-ui en tu <code>tailwind.config.ts</code>:</p>
+      <p>Agrega el preset de synthetix-ui en tu <code>tailwind.config.ts</code>:</p>
 
       <CodeSnippet
         code={`import type { Config } from "tailwindcss";
-import chassisPreset from "@chassis-ui/tailwind-preset";
+import chassisPreset from "@synthetix-ui/tailwind-preset";
 
 export default {
   presets: [chassisPreset],

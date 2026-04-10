@@ -14,12 +14,12 @@ export default function UseDisclosurePage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add hooks`} />
+      <CodeSnippet code={`npx @synthetix-ui add hooks`} />
 
       <h2>Uso</h2>
       <CodeSnippet
-        code={`import { useDisclosure } from "@chassis-ui/hooks";
-import { Dialog, Button } from "@chassis-ui/core";
+        code={`import { useDisclosure } from "@synthetix-ui/hooks";
+import { Dialog, Button } from "@synthetix-ui/core";
 
 function MyComponent() {
   const { isOpen, open, close, toggle } = useDisclosure();

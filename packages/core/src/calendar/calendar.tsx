@@ -2,7 +2,7 @@
 import * as React from "react";
 import { DayPicker } from "react-day-picker";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import { buttonVariants } from "../button";
 import type { CalendarProps } from "./calendar.types";
 

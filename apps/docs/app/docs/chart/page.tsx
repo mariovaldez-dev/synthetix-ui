@@ -14,13 +14,13 @@ export default function ChartPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add chart`} />
+      <CodeSnippet code={`npx @synthetix-ui add chart`} />
 
       <h2>Preview</h2><ComponentPreview><ChartDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Chart } from "@chassis-ui/core";
+        code={`import { Chart } from "@synthetix-ui/core";
 
 export function Example() {
   return <Chart />;

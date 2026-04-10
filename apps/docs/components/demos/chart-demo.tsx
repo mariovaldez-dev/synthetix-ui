@@ -11,7 +11,7 @@ import {
   YAxis,
   CartesianGrid,
   ResponsiveContainer
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },

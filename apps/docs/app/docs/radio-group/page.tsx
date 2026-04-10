@@ -19,11 +19,11 @@ export default function RadioGroupPage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add radio-group`} />
+      <CodeSnippet code={`npx @synthetix-ui add radio-group`} />
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { RadioGroup, RadioGroupItem, Label } from "@chassis-ui/core";
+        code={`import { RadioGroup, RadioGroupItem, Label } from "@synthetix-ui/core";
 
 export function Example() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 interface CopyButtonProps {
   code: string;

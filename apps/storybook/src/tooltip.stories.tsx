@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Tooltip, Button } from "@chassis-ui/core";
+import { Tooltip, Button } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Tooltip",

@@ -14,7 +14,7 @@ export default function AvatarPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add avatar`} />
+      <CodeSnippet code={`npx @synthetix-ui add avatar`} />
 
       <h2>Preview</h2><ComponentPreview><AvatarDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function AvatarPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Avatar } from "@chassis-ui/core";
+        code={`import { Avatar } from "@synthetix-ui/core";
 
 export function Example() {
   return <Avatar />;

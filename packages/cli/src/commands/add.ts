@@ -96,8 +96,8 @@ export async function runAdd(names: string[], options: AddOptions = {}): Promise
 
   // Mostrar dependencias a instalar
   if (allDeps.size > 0) {
-    const externalDeps = [...allDeps].filter((d) => !d.startsWith("@chassis-ui/"));
-    const internalDeps = [...allDeps].filter((d) => d.startsWith("@chassis-ui/"));
+    const externalDeps = [...allDeps].filter((d) => !d.startsWith("@synthetix-ui/"));
+    const internalDeps = [...allDeps].filter((d) => d.startsWith("@synthetix-ui/"));
 
     if (externalDeps.length > 0) {
       console.log(`\n${pc.bold("Instala las siguientes dependencias:")}`);

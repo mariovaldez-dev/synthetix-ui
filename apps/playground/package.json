@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/playground",
+  "name": "@synthetix-ui/playground",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -9,14 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@chassis-ui/core": "workspace:*",
-    "@chassis-ui/hooks": "workspace:*",
+    "@synthetix-ui/core": "workspace:*",
+    "@synthetix-ui/hooks": "workspace:*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@chassis-ui/tailwind-preset": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/tailwind-preset": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.4",

@@ -1,7 +1,7 @@
 "use client";
 
-import { Input } from "@chassis-ui/core";
-import { SearchIcon } from "@chassis-ui/icons";
+import { Input } from "@synthetix-ui/core";
+import { SearchIcon } from "@synthetix-ui/icons";
 
 export function InputBasicDemo() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Badge } from "@chassis-ui/core";
+import { Badge } from "@synthetix-ui/core";
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
         <span className="text-xs text-neutral-500">v0.0.0</span>
       </div>
 
-      <h1>chassis-ui</h1>
+      <h1>synthetix-ui</h1>
 
       <p>
         Librería de componentes UI para React con Tailwind CSS. Los componentes
@@ -24,8 +24,8 @@ export default function HomePage() {
       <p>Agrega componentes a tu proyecto con el CLI:</p>
 
       <pre>
-        <code>{`npx @chassis-ui add button
-npx @chassis-ui add input card dialog`}</code>
+        <code>{`npx @synthetix-ui add button
+npx @synthetix-ui add input card dialog`}</code>
       </pre>
 
       <p>
@@ -33,7 +33,7 @@ npx @chassis-ui add input card dialog`}</code>
       </p>
 
       <pre>
-        <code>{`pnpm add @chassis-ui/core @chassis-ui/utils`}</code>
+        <code>{`pnpm add @synthetix-ui/core @synthetix-ui/utils`}</code>
       </pre>
 
       <h2>Componentes disponibles</h2>

@@ -14,7 +14,7 @@ export default function AspectRatioPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add aspect-ratio`} />
+      <CodeSnippet code={`npx @synthetix-ui add aspect-ratio`} />
 
       <h2>Preview</h2><ComponentPreview code={`<AspectRatio ratio={16 / 9}>
   <img src="..." className="object-cover" />
@@ -22,7 +22,7 @@ export default function AspectRatioPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { AspectRatio } from "@chassis-ui/core";
+        code={`import { AspectRatio } from "@synthetix-ui/core";
 
 export function Example() {
   return <AspectRatio />;

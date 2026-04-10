@@ -14,7 +14,7 @@ export default function TabsPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add tabs`} />
+      <CodeSnippet code={`npx @synthetix-ui add tabs`} />
 
       <h2>Preview</h2><ComponentPreview><TabsDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function TabsPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Tabs } from "@chassis-ui/core";
+        code={`import { Tabs } from "@synthetix-ui/core";
 
 export function Example() {
   return <Tabs />;

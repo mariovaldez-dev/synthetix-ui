@@ -12,7 +12,7 @@ export default function DialogPage() {
       <p>Modal accesible con trampa de foco, cierre con Escape y portal al body.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add dialog`} />
+      <CodeSnippet code={`npx @synthetix-ui add dialog`} />
 
       <h2>Uso</h2>
       <CodeSnippet

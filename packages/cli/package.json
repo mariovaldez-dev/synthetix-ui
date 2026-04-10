@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/cli",
+  "name": "@synthetix-ui/cli",
   "version": "0.0.0",
   "private": false,
   "description": "CLI for adding chassis-ui components to your project",
@@ -22,8 +22,8 @@
     "prompts": "^2.4.2"
   },
   "devDependencies": {
-    "@chassis-ui/eslint-config": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/eslint-config": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "@types/fs-extra": "^11.0.4",
     "@types/prompts": "^2.4.9",
     "tsup": "^8.3.5",

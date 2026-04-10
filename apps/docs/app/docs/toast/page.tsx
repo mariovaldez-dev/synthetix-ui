@@ -12,7 +12,7 @@ export default function ToastPage() {
       <p>Notificaciones no bloqueantes con auto-cierre, variantes de estado y posición configurable.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add toast`} />
+      <CodeSnippet code={`npx @synthetix-ui add toast`} />
 
       <h2>Setup — Toaster</h2>
       <p>
@@ -21,7 +21,7 @@ export default function ToastPage() {
       </p>
       <CodeSnippet
         code={`// app/layout.tsx
-import { Toaster } from "@chassis-ui/core";
+import { Toaster } from "@synthetix-ui/core";
 
 export default function RootLayout({ children }) {
   return (
@@ -70,7 +70,7 @@ export default function RootLayout({ children }) {
 
       <h2>Uso</h2>
       <CodeSnippet
-        code={`import { useToast } from "@chassis-ui/core";
+        code={`import { useToast } from "@synthetix-ui/core";
 
 function MyComponent() {
   const { toast, clear } = useToast();

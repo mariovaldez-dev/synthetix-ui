@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Input } from "@chassis-ui/core";
-import { SearchIcon } from "@chassis-ui/icons";
+import { Input } from "@synthetix-ui/core";
+import { SearchIcon } from "@synthetix-ui/icons";
 
 const meta = {
   title: "Core/Input",

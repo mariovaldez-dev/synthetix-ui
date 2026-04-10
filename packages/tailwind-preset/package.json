@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/tailwind-preset",
+  "name": "@synthetix-ui/tailwind-preset",
   "version": "0.0.0",
   "private": false,
   "description": "Tailwind CSS preset for chassis-ui",
@@ -24,12 +24,12 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@chassis-ui/tokens": "workspace:*"
+    "@synthetix-ui/tokens": "workspace:*"
   },
   "devDependencies": {
-    "@chassis-ui/eslint-config": "workspace:*",
-    "@chassis-ui/prettier-config": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/eslint-config": "workspace:*",
+    "@synthetix-ui/prettier-config": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "tailwindcss": "^3.4.15",
     "tsup": "^8.3.5",
     "typescript": "^5.6.3"
@@ -37,5 +37,5 @@
   "peerDependencies": {
     "tailwindcss": "^3.4.0"
   },
-  "prettier": "@chassis-ui/prettier-config"
+  "prettier": "@synthetix-ui/prettier-config"
 }

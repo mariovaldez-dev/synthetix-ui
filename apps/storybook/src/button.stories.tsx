@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Button } from "@chassis-ui/core";
+import { Button } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Button",

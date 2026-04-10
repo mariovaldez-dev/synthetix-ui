@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Textarea } from "@chassis-ui/core";
+import { Textarea } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Textarea",

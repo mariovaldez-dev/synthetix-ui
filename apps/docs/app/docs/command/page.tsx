@@ -12,11 +12,11 @@ export default function CommandPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add command`} />
+      <CodeSnippet code={`npx @synthetix-ui add command`} />
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Command } from "@chassis-ui/core";
+        code={`import { Command } from "@synthetix-ui/core";
 
 export function Example() {
   return <Command />;

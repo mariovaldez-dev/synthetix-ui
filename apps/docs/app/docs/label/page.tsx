@@ -19,11 +19,11 @@ export default function LabelPage() {
       </ComponentPreview>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add label`} />
+      <CodeSnippet code={`npx @synthetix-ui add label`} />
 
       <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Label } from "@chassis-ui/core";
+        code={`import { Label } from "@synthetix-ui/core";
 
 export function Example() {
   return (

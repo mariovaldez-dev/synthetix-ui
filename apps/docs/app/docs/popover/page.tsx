@@ -14,7 +14,7 @@ export default function PopoverPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add popover`} />
+      <CodeSnippet code={`npx @synthetix-ui add popover`} />
 
       <h2>Preview</h2><ComponentPreview><PopoverDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function PopoverPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Popover } from "@chassis-ui/core";
+        code={`import { Popover } from "@synthetix-ui/core";
 
 export function Example() {
   return <Popover />;

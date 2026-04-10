@@ -15,7 +15,7 @@ export default function SonnerPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add sonner`} />
+      <CodeSnippet code={`npx @synthetix-ui add sonner`} />
 
       <h2>Setup</h2>
       <p>
@@ -24,7 +24,7 @@ export default function SonnerPage() {
       </p>
       <CodeSnippet
         code={`// app/layout.tsx
-import { SonnerToaster } from "@chassis-ui/core";
+import { SonnerToaster } from "@synthetix-ui/core";
 
 export default function RootLayout({ children }) {
   return (
@@ -116,7 +116,7 @@ toast("Elemento eliminado", {
 
       <h2>Toast vs Sonner</h2>
       <p>
-        chassis-ui incluye dos sistemas de notificaciones:
+        synthetix-ui incluye dos sistemas de notificaciones:
       </p>
       <ul>
         <li><strong>Toast</strong> — implementación propia sin dependencias, API simple con <code>useToast()</code>.</li>

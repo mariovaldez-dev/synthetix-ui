@@ -1,6 +1,6 @@
 import plugin from "tailwindcss/plugin";
 import type { Config } from "tailwindcss";
-import { fontFamily, fontSize, fontWeight, spacing, borderRadius, lightTokens, darkTokens, tokensToCSS } from "@chassis-ui/tokens";
+import { fontFamily, fontSize, fontWeight, spacing, borderRadius, lightTokens, darkTokens, tokensToCSS } from "@synthetix-ui/tokens";
 
 /**
  * Plugin de Tailwind que inyecta las CSS custom properties en :root y .dark

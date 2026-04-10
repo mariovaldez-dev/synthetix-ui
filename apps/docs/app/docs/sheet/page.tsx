@@ -14,13 +14,13 @@ export default function SheetPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add sheet`} />
+      <CodeSnippet code={`npx @synthetix-ui add sheet`} />
 
       <h2>Preview</h2><ComponentPreview><SheetDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Sheet } from "@chassis-ui/core";
+        code={`import { Sheet } from "@synthetix-ui/core";
 
 export function Example() {
   return <Sheet />;

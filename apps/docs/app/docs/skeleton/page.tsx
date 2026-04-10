@@ -14,7 +14,7 @@ export default function SkeletonPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add skeleton`} />
+      <CodeSnippet code={`npx @synthetix-ui add skeleton`} />
 
       <h2>Preview</h2><ComponentPreview><SkeletonDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function SkeletonPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Skeleton } from "@chassis-ui/core";
+        code={`import { Skeleton } from "@synthetix-ui/core";
 
 export function Example() {
   return <Skeleton />;

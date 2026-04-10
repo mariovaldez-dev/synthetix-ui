@@ -14,7 +14,7 @@ export default function HoverCardPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add hover-card`} />
+      <CodeSnippet code={`npx @synthetix-ui add hover-card`} />
 
       <h2>Preview</h2><ComponentPreview><HoverCardDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function HoverCardPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { HoverCard } from "@chassis-ui/core";
+        code={`import { HoverCard } from "@synthetix-ui/core";
 
 export function Example() {
   return <HoverCard />;

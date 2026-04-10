@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Checkbox } from "@chassis-ui/core";
+import { Checkbox } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Checkbox",

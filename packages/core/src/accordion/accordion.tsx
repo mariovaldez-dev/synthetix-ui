@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 import type { AccordionProps } from "./accordion.types";
 

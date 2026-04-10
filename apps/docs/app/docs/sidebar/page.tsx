@@ -15,7 +15,7 @@ export default function SidebarPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add sidebar`} />
+      <CodeSnippet code={`npx @synthetix-ui add sidebar`} />
 
       <h2>Demo</h2>
       <ComponentPreview

@@ -19,7 +19,7 @@ import {
   Accordion,
   Toaster,
   useToast,
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 
 function ThemeToggle() {
   const [dark, setDark] = useState(false);
@@ -54,8 +54,8 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 }
 
 const FAQ = [
-  { id: "q1", trigger: "¿Qué es chassis-ui?", content: "Una librería de componentes UI para React con Tailwind CSS." },
-  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @chassis-ui add <componente> o instalando @chassis-ui/core." },
+  { id: "q1", trigger: "¿Qué es synthetix-ui?", content: "Una librería de componentes UI para React con Tailwind CSS." },
+  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @synthetix-ui add <componente> o instalando @synthetix-ui/core." },
   { id: "q3", trigger: "¿Soporte dark mode?", content: "Sí. Añade la clase .dark al elemento html y el preset hace el resto." },
 ];
 
@@ -75,7 +75,7 @@ export function App() {
       <div className="mx-auto max-w-2xl space-y-12 px-6 py-16">
         {/* Header */}
         <div className="space-y-1">
-          <h1 className="text-2xl font-semibold tracking-tight text-foreground">chassis-ui</h1>
+          <h1 className="text-2xl font-semibold tracking-tight text-foreground">synthetix-ui</h1>
           <p className="text-sm text-muted-foreground">Playground de componentes. Usa el toggle arriba a la derecha para cambiar de tema.</p>
         </div>
 

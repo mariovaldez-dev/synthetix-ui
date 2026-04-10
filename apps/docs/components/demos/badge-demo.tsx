@@ -1,6 +1,6 @@
 "use client";
 
-import { Badge } from "@chassis-ui/core";
+import { Badge } from "@synthetix-ui/core";
 
 export function BadgeVariantsDemo() {
   return (

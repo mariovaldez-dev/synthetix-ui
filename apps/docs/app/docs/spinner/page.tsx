@@ -12,7 +12,7 @@ export default function SpinnerPage() {
       <p>Indicador de carga animado con variantes de tamaño y color.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add spinner`} />
+      <CodeSnippet code={`npx @synthetix-ui add spinner`} />
 
       <h2>Uso</h2>
       <CodeSnippet

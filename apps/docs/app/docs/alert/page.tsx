@@ -14,7 +14,7 @@ export default function AlertPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add alert`} />
+      <CodeSnippet code={`npx @synthetix-ui add alert`} />
 
       <h2>Preview</h2><h3>Básico</h3><ComponentPreview><AlertDemo /></ComponentPreview><h3>Variantes</h3><ComponentPreview><AlertVariantsDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function AlertPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Alert } from "@chassis-ui/core";
+        code={`import { Alert } from "@synthetix-ui/core";
 
 export function Example() {
   return <Alert />;

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 const NAV = [
   {
@@ -113,7 +113,7 @@ export function Sidebar() {
   return (
     <aside className="sticky top-0 h-screen w-[260px] shrink-0 overflow-y-auto border-r border-border bg-muted/50 px-4 py-6">
       <Link href="/" className="mb-6 flex items-center gap-2 px-2">
-        <span className="text-base font-bold text-foreground">chassis-ui</span>
+        <span className="text-base font-bold text-foreground">Synthetix UI</span>
         <span className="rounded-full bg-success px-1.5 py-0.5 text-[10px] font-medium text-primary">
           beta
         </span>

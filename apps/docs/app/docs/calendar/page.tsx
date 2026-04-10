@@ -26,7 +26,7 @@ export default function CalendarPage() {
           </ComponentPreview>
           <h3 className="mt-4">Código</h3>
           <CodeSnippet
-            code={`import { Calendar } from "@chassis-ui/core";
+            code={`import { Calendar } from "@synthetix-ui/core";
 import * as React from "react";
 
 export function CalendarDemo() {
@@ -51,7 +51,7 @@ export function CalendarDemo() {
             <CalendarRangeDemo />
           </ComponentPreview>
           <CodeSnippet
-            code={`import { Calendar } from "@chassis-ui/core";
+            code={`import { Calendar } from "@synthetix-ui/core";
 import { DateRange } from "react-day-picker";
 import { format, addDays } from "date-fns";
 
@@ -84,7 +84,7 @@ export function CalendarRangeDemo() {
           <h3 className="mt-8">Implementación Sugerida</h3>
           <p className="text-sm mb-4">Esta vista utiliza el componente <code>Day</code> personalizado para renderizar tareas dentro de las celdas.</p>
           <CodeSnippet
-            code={`import { Calendar, Dialog, DialogHeader, DialogBody, DialogFooter, Button } from "@chassis-ui/core";
+            code={`import { Calendar, Dialog, DialogHeader, DialogBody, DialogFooter, Button } from "@synthetix-ui/core";
 import { isSameDay, format } from "date-fns";
 
 export function MonthlyPlanner() {
@@ -133,7 +133,7 @@ export function MonthlyPlanner() {
           </ComponentPreview>
           <h3 className="mt-8">Lógica de Columnas y Tiempo</h3>
           <CodeSnippet
-            code={`import { ScrollArea, Dialog, Badge } from "@chassis-ui/core";
+            code={`import { ScrollArea, Dialog, Badge } from "@synthetix-ui/core";
 
 export function WeeklyView() {
   const hours = Array.from({ length: 12 }, (_, i) => i + 8); // 8 AM - 7 PM
@@ -161,7 +161,7 @@ export function WeeklyView() {
 
         <section>
           <h2>Instalación</h2>
-          <CodeSnippet code={`npx @chassis-ui add calendar`} />
+          <CodeSnippet code={`npx @synthetix-ui add calendar`} />
         </section>
       </div>
     </div>

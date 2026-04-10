@@ -14,13 +14,13 @@ export default function AlertDialogPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add alert-dialog`} />
+      <CodeSnippet code={`npx @synthetix-ui add alert-dialog`} />
 
       <h2>Preview</h2><ComponentPreview><AlertDialogDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { AlertDialog } from "@chassis-ui/core";
+        code={`import { AlertDialog } from "@synthetix-ui/core";
 
 export function Example() {
   return <AlertDialog />;

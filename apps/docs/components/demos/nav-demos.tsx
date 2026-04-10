@@ -19,8 +19,8 @@ import {
   PaginationNext,
   PaginationPrevious,
   PaginationEllipsis,
-} from "@chassis-ui/core";
-import { cn } from "@chassis-ui/utils";
+} from "@synthetix-ui/core";
+import { cn } from "@synthetix-ui/utils";
 
 export function TabsDemo() {
   return (

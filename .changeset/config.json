@@ -8,9 +8,9 @@
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
   "ignore": [
-    "@chassis-ui/tsconfig",
-    "@chassis-ui/eslint-config",
-    "@chassis-ui/prettier-config"
+    "@synthetix-ui/tsconfig",
+    "@synthetix-ui/eslint-config",
+    "@synthetix-ui/prettier-config"
   ],
   "privatePackages": {
     "version": false,

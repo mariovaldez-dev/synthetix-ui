@@ -28,9 +28,9 @@ import {
   Input,
   Select,
   Textarea,
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 import { toast } from "sonner";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 /* ─── Navigation Menu ─────────────────────────────────────── */
 
@@ -71,14 +71,14 @@ export function NavigationMenuDemo() {
               <li className="row-span-3">
                 <NavigationMenuLink asChild>
                   <a className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-primary/20 to-primary/5 p-6 no-underline outline-none focus:shadow-md">
-                    <div className="mb-2 mt-4 text-lg font-medium">chassis-ui</div>
+                    <div className="mb-2 mt-4 text-lg font-medium">synthetix-ui</div>
                     <p className="text-sm leading-tight text-muted-foreground">
                       Librería de componentes UI para React con Tailwind CSS.
                     </p>
                   </a>
                 </NavigationMenuLink>
               </li>
-              <ListItem title="Instalación" description="Cómo instalar chassis-ui en tu proyecto." />
+              <ListItem title="Instalación" description="Cómo instalar synthetix-ui en tu proyecto." />
               <ListItem title="Theming" description="Personalización de colores y estilos." />
               <ListItem title="Componentes" description="Explora todos los componentes disponibles." />
             </ul>
@@ -337,7 +337,7 @@ export function SidebarDemo() {
       <aside className="flex w-44 shrink-0 flex-col border-r bg-card">
         <div className="flex items-center gap-2 border-b px-3 py-3">
           <div className="h-5 w-5 rounded bg-primary" />
-          <span className="text-sm font-semibold">chassis-ui</span>
+          <span className="text-sm font-semibold">synthetix-ui</span>
         </div>
         <nav className="flex flex-col gap-0.5 p-2 flex-1 overflow-y-auto">
           <p className="px-2 pb-1 pt-2 text-[10px] font-medium uppercase tracking-wider text-muted-foreground">

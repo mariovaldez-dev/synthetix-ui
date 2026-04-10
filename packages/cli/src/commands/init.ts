@@ -60,7 +60,7 @@ export async function runInit(options: InitOptions = {}): Promise<void> {
 
   if (config.tailwind) {
     console.log(`${pc.bold("Siguiente paso:")} agrega el preset en tu tailwind.config.ts:\n`);
-    console.log(pc.dim(`  import chassisPreset from "@chassis-ui/tailwind-preset";
+    console.log(pc.dim(`  import chassisPreset from "@synthetix-ui/tailwind-preset";
   export default {
     presets: [chassisPreset],
     content: ["./src/**/*.{ts,tsx}"],

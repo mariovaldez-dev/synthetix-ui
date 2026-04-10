@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 type ThemePreset = {
   id: string;
@@ -119,7 +119,7 @@ const PRESETS: ThemePreset[] = [
 ];
 
 const STYLE_ID = "chassis-theme-override";
-const STORAGE_KEY = "chassis-ui-color-theme";
+const STORAGE_KEY = "synthetix-ui-color-theme";
 
 function hexToHsl(hex: string): [number, number, number] {
   const r = parseInt(hex.slice(1, 3), 16) / 255;

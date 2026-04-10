@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Spinner, Button } from "@chassis-ui/core";
+import { Spinner, Button } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Spinner",

@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/eslint-config",
+  "name": "@synthetix-ui/eslint-config",
   "version": "0.0.0",
   "private": true,
   "exports": {

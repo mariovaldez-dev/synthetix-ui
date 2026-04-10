@@ -14,7 +14,7 @@ export default function BreadcrumbPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add breadcrumb`} />
+      <CodeSnippet code={`npx @synthetix-ui add breadcrumb`} />
 
       <h2>Preview</h2><ComponentPreview><BreadcrumbDemo /></ComponentPreview>
 
@@ -28,7 +28,7 @@ export default function BreadcrumbPage() {
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Breadcrumb } from "@chassis-ui/core";
+        code={`import { Breadcrumb } from "@synthetix-ui/core";
 
 export function Example() {
   return <Breadcrumb />;

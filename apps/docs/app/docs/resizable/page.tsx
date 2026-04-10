@@ -15,7 +15,7 @@ export default function ResizablePage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add resizable`} />
+      <CodeSnippet code={`npx @synthetix-ui add resizable`} />
 
       <h2>Uso</h2>
       <CodeSnippet

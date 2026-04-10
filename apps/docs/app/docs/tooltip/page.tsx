@@ -12,7 +12,7 @@ export default function TooltipPage() {
       <p>Etiqueta flotante que aparece al hacer hover o focus sobre un elemento trigger.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add tooltip`} />
+      <CodeSnippet code={`npx @synthetix-ui add tooltip`} />
 
       <h2>Uso</h2>
       <CodeSnippet

@@ -8,10 +8,10 @@ const VERSION = "0.0.0";
 
 function printHelp(): void {
   console.log(`
-${pc.bold("@chassis-ui/cli")} v${VERSION}
+${pc.bold("@synthetix-ui/cli")} v${VERSION}
 
 ${pc.bold("Uso:")}
-  npx @chassis-ui <comando> [opciones]
+  npx @synthetix-ui <comando> [opciones]
 
 ${pc.bold("Comandos:")}
   ${pc.cyan("add")} [componentes...]   Copia componentes a tu proyecto
@@ -25,10 +25,10 @@ ${pc.bold("Opciones:")}
   ${pc.cyan("-h, --help")}             Muestra esta ayuda
 
 ${pc.bold("Ejemplos:")}
-  ${pc.dim("npx @chassis-ui add button")}
-  ${pc.dim("npx @chassis-ui add button input card --out-dir src/ui")}
-  ${pc.dim("npx @chassis-ui list")}
-  ${pc.dim("npx @chassis-ui init")}
+  ${pc.dim("npx @synthetix-ui add button")}
+  ${pc.dim("npx @synthetix-ui add button input card --out-dir src/ui")}
+  ${pc.dim("npx @synthetix-ui list")}
+  ${pc.dim("npx @synthetix-ui init")}
 `);
 }
 

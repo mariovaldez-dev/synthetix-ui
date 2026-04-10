@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 import { createPortal } from "react-dom";
 
-import { cn } from "@chassis-ui/utils";
-import { useFocusTrap } from "@chassis-ui/hooks";
+import { cn } from "@synthetix-ui/utils";
+import { useFocusTrap } from "@synthetix-ui/hooks";
 
 import type { DialogProps, DialogHeaderProps, DialogBodyProps, DialogFooterProps } from "./dialog.types";
 

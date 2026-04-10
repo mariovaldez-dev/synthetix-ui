@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as ToggleGroupPrimitive from "@radix-ui/react-toggle-group";
 
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 import { toggleVariants } from "../toggle";
 import type {
   ToggleGroupProps,

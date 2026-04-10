@@ -1,6 +1,6 @@
 "use client";
 
-import { Select } from "@chassis-ui/core";
+import { Select } from "@synthetix-ui/core";
 
 const LANGS = [
   { value: "es", label: "Español" },

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { SearchIcon } from "@chassis-ui/icons";
+import { SearchIcon } from "@synthetix-ui/icons";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { ThemePicker } from "@/components/theme-picker";
 

@@ -19,10 +19,10 @@ const withMDX = createMDX({
 const nextConfig: NextConfig = {
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: [
-    "@chassis-ui/core",
-    "@chassis-ui/utils",
-    "@chassis-ui/hooks",
-    "@chassis-ui/tokens"
+    "@synthetix-ui/core",
+    "@synthetix-ui/utils",
+    "@synthetix-ui/hooks",
+    "@synthetix-ui/tokens"
   ],
 };
 

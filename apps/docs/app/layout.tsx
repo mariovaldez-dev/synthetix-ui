@@ -6,13 +6,13 @@ import { Header } from "@/components/header";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
-  title: { template: "%s — chassis-ui", default: "chassis-ui" },
+  title: { template: "%s — synthetix-ui", default: "synthetix-ui" },
   description: "Librería de componentes UI para React con Tailwind CSS",
 };
 
 const setInitialTheme = `(function() {
   try {
-    const storedTheme = localStorage.getItem('chassis-ui-theme');
+    const storedTheme = localStorage.getItem('synthetix-ui-theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     const theme = storedTheme === 'dark' || (!storedTheme && prefersDark) ? 'dark' : 'light';
     document.documentElement.classList.toggle('dark', theme === 'dark');

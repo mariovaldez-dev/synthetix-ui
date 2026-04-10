@@ -1,6 +1,6 @@
 "use client";
 
-import { Card, CardHeader, CardTitle, CardDescription, CardBody, CardFooter, Button, Badge } from "@chassis-ui/core";
+import { Card, CardHeader, CardTitle, CardDescription, CardBody, CardFooter, Button, Badge } from "@synthetix-ui/core";
 
 export function CardBasicDemo() {
   return (

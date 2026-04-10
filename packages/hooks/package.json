@@ -1,5 +1,5 @@
 {
-  "name": "@chassis-ui/hooks",
+  "name": "@synthetix-ui/hooks",
   "version": "0.0.0",
   "private": false,
   "description": "React hooks for chassis-ui",
@@ -26,9 +26,9 @@
     "test:watch": "vitest"
   },
   "devDependencies": {
-    "@chassis-ui/eslint-config": "workspace:*",
-    "@chassis-ui/prettier-config": "workspace:*",
-    "@chassis-ui/tsconfig": "workspace:*",
+    "@synthetix-ui/eslint-config": "workspace:*",
+    "@synthetix-ui/prettier-config": "workspace:*",
+    "@synthetix-ui/tsconfig": "workspace:*",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
@@ -45,5 +45,5 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },
-  "prettier": "@chassis-ui/prettier-config"
+  "prettier": "@synthetix-ui/prettier-config"
 }

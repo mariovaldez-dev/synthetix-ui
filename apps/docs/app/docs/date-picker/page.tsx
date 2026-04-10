@@ -23,7 +23,7 @@ export default function DatePickerPage() {
 
         <section>
           <h2>Instalación</h2>
-          <CodeSnippet code={`npx @chassis-ui add date-picker`} />
+          <CodeSnippet code={`npx @synthetix-ui add date-picker`} />
         </section>
 
         <section>
@@ -37,7 +37,7 @@ export default function DatePickerPage() {
         <section>
           <h2>Uso básico</h2>
           <CodeSnippet
-            code={`import { DatePicker } from "@chassis-ui/core";
+            code={`import { DatePicker } from "@synthetix-ui/core";
 
 export function Example() {
   const [date, setDate] = React.useState<Date>();

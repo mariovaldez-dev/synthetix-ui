@@ -14,13 +14,13 @@ export default function ContextMenuPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add context-menu`} />
+      <CodeSnippet code={`npx @synthetix-ui add context-menu`} />
 
       <h2>Preview</h2><ComponentPreview><ContextMenuDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { ContextMenu } from "@chassis-ui/core";
+        code={`import { ContextMenu } from "@synthetix-ui/core";
 
 export function Example() {
   return <ContextMenu />;

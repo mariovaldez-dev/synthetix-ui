@@ -13,10 +13,10 @@ import {
   DialogHeader,
   DialogBody,
   DialogFooter,
-} from "@chassis-ui/core";
+} from "@synthetix-ui/core";
 import { addDays, format, isSameDay } from "date-fns";
 import { DateRange } from "react-day-picker";
-import { cn } from "@chassis-ui/utils";
+import { cn } from "@synthetix-ui/utils";
 
 export function CalendarDemo() {
   const [date, setDate] = React.useState<Date | undefined>(new Date());

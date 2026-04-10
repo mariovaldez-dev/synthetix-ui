@@ -1,6 +1,11 @@
 {
-  "name": "@chassis-ui/tsconfig",
+  "name": "@synthetix-ui/tsconfig",
   "version": "0.0.0",
   "private": true,
+  "exports": {
+    "./base.json": "./base.json",
+    "./react.json": "./react.json",
+    "./node.json": "./node.json"
+  },
   "files": ["*.json"]
 }

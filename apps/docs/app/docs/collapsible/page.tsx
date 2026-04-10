@@ -14,13 +14,13 @@ export default function CollapsiblePage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add collapsible`} />
+      <CodeSnippet code={`npx @synthetix-ui add collapsible`} />
 
       <h2>Preview</h2><ComponentPreview><CollapsibleDemo /></ComponentPreview>
 
 <h2>Uso básico</h2>
       <CodeSnippet
-        code={`import { Collapsible } from "@chassis-ui/core";
+        code={`import { Collapsible } from "@synthetix-ui/core";
 
 export function Example() {
   return <Collapsible />;

@@ -12,7 +12,7 @@ export default function CheckboxPage() {
       <p>Campo de selección booleana con soporte para estado indeterminado, error y helper text.</p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add checkbox`} />
+      <CodeSnippet code={`npx @synthetix-ui add checkbox`} />
 
       <h2>Uso</h2>
       <CodeSnippet

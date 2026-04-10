@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Toaster, useToast, Button } from "@chassis-ui/core";
+import { Toaster, useToast, Button } from "@synthetix-ui/core";
 
 const meta = {
   title: "Core/Toast",

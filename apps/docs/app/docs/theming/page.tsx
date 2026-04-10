@@ -24,7 +24,7 @@ export default function ThemingPage() {
     <div>
       <h1>Theming</h1>
       <p>
-        chassis-ui usa CSS custom properties (HSL) para su sistema de colores.
+        synthetix-ui usa CSS custom properties (HSL) para su sistema de colores.
         El preset de Tailwind inyecta automáticamente las variables en <code>:root</code> y{" "}
         <code>.dark</code>, habilitando dark mode sin configuración adicional.
       </p>

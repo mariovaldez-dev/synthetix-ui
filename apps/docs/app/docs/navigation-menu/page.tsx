@@ -15,7 +15,7 @@ export default function NavigationMenuPage() {
       </p>
 
       <h2>Instalación</h2>
-      <CodeSnippet code={`npx @chassis-ui add navigation-menu`} />
+      <CodeSnippet code={`npx @synthetix-ui add navigation-menu`} />
 
       <h2>Uso</h2>
       <CodeSnippet
@@ -67,7 +67,7 @@ export function Example() {
       <NavigationMenuTrigger>Inicio</NavigationMenuTrigger>
       <NavigationMenuContent>
         <ul className="grid gap-3 p-6 md:w-[400px] lg:grid-cols-[.75fr_1fr]">
-          <ListItem title="Instalación" description="Cómo instalar chassis-ui." />
+          <ListItem title="Instalación" description="Cómo instalar synthetix-ui." />
           <ListItem title="Theming" description="Personalización de colores." />
         </ul>
       </NavigationMenuContent>

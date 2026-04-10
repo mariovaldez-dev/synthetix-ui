@@ -6,7 +6,7 @@ import { Accordion } from "./accordion";
 
 const items = [
   { id: "q1", trigger: "¿Qué es chassis-ui?", content: "Una librería de componentes." },
-  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @chassis-ui add <component>." },
+  { id: "q2", trigger: "¿Cómo se instala?", content: "Con npx @synthetix-ui add <component>." },
   { id: "q3", trigger: "¿Es gratis?", content: "Sí, es open source.", disabled: true },
 ];
 
